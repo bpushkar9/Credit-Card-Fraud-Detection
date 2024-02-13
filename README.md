@@ -9,7 +9,18 @@ We have to build a classification model to predict whether a transaction is frau
 The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 ## Project Focus:
 We're going to focus on the following steps in order to solve the problem of detecting fraudulent credit card transactions:
-### Exploratory Data Analysis:
+### 1. Exploratory Data Analysis:
 Analyze and understand the data to identify patterns, relationships, and trends in the data by using Descriptive Statistics and Visualizations.
-### Data Cleaning:
+### 2. Data Cleaning:
 This might include standardization, handling the missing values and outliers in the data. 
+### 3. Dealing with Imbalanced Data:
+This data set is highly imbalanced. The data should be balanced using the appropriate methods before moving onto model building.
+### 4. Feature Engineering:
+Create new features or transform the existing features for better performance of the ML Models. 
+### 5. Model Selection:
+Choose the most appropriate model that can be used for this project.
+### 6. Model Training:
+Split the data into train & test sets and use the train set to estimate the best model parameters.
+### 7. Model Validation:
+Evaluate the performance of the model on data that was not used during the training process. The goal is to estimate the model's ability to generalize to new, unseen data and to identify any issues with the model, such as overfitting.
+
